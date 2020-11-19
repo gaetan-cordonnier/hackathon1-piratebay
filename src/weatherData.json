@@ -5,6 +5,34 @@
   "list": [
     {
       "coord": {
+        "lat": 7.93,
+        "lon": -80.03
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ]
+    },
+    {
+      "coord": {
+        "lat": 8.27,
+        "lon": -79.9
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ]
+    },
+    {
+      "coord": {
         "lat": 8.22,
         "lon": -80.22
       },
