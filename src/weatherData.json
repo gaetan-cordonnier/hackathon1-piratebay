@@ -2090,6 +2090,161 @@
           "icon": "01d"
         }
       ]
+    },
+    {
+      "id": 399999,
+      "nameboat": "Barberousse",
+      "coord": {
+      "lat": 21.43,
+      "lon": -82.38
+      },
+      "boat": [
+        {
+          "id": 809,
+          "icon": "boatimg"
+        }
+      ]
+    },
+    {
+      "id": 399998,
+      "nameboat": "Barbe Noire",
+      "coord": {
+      "lat": 18.48,
+      "lon": -77.96
+      },
+      "boat": [
+        {
+          "id": 808,
+          "icon": "boatimg"
+        }
+      ]
+    },  
+    {
+      "id": 399997,
+      "nameboat": "La Buse",
+      "coord": {
+      "lat": 20.25,
+      "lon": -84.28
+      },
+      "boat": [
+        {
+          "id": 807,
+          "icon": "boatimg"
+        }
+      ]
+    },
+    {
+      "id": 399996,
+      "nameboat": "François l'Olonnais",
+      "coord": {
+      "lat": 17.84,
+      "lon": -87.94
+      },
+      "boat": [
+        {
+          "id": 806,
+          "icon": "boatimg"
+        }
+      ]
+    },
+    {
+      "id": 399995,
+      "nameboat": "Henry Every",
+      "coord": {
+      "lat": 17.83,
+      "lon": -82.41
+      },
+      "boat": [
+        {
+          "id": 805,
+          "icon": "boatimg"
+        }
+      ]
+    },
+    {
+      "id": 399994,
+      "nameboat": "Charles Vane",
+      "coord": {
+      "lat": 22.83,
+      "lon": -86.46
+      },
+      "boat": [
+        {
+          "id": 804,
+          "icon": "boatimg"
+        }
+      ]
+    },
+    {
+      "id": 399993,
+      "nameboat": "Bartholomew Roberts",
+      "coord": {
+      "lat": 15.46,
+      "lon": -62.60
+      },
+      "boat": [
+        {
+          "id": 803,
+          "icon": "boatimg"
+        }
+      ]
+    },
+    {
+      "id": 399992,
+      "nameboat": "Anne Bonny",
+      "coord": {
+      "lat": 13.98,
+      "lon": -65.72
+      },
+      "boat": [
+        {
+          "id": 802,
+          "icon": "boatimg"
+        }
+      ]
+    },
+    {
+      "id": 399991,
+      "nameboat": "Amaro Pargo ",
+      "coord": {
+      "lat": 14.40,
+      "lon": -75.77
+      },
+      "boat": [
+        {
+          "id": 801,
+          "icon": "boatimg"
+        }
+      ]
+    },
+    {
+      "id": 399990,
+      "nameboat": "Alvilda ",
+      "coord": {
+      "lat": 10.24,
+      "lon": -79.54
+      },
+      "boat": [
+        {
+          "id": 800,
+          "icon": "boatimg"
+        }
+      ]
+    },
+    {
+      "id": 3622389,
+      "nameboat": "William Kidd",
+      "coord": {
+        "lat": 24.57,
+        "lon": -76.84
+      },
+      "boat": [
+        {
+          "id": 799,
+          "icon": "boatimg"
+        }
+      ]
     }
   ]
 }
+
