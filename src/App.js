@@ -1,17 +1,10 @@
-
 import { useState } from "react";
-import MapPirateBay from "./Components/MapPirateBay";
-import Filter from "./Components/Filter";
 import { Reset } from "styled-reset";
 
-import { useState } from "react";
-
-import Header from "./Components/Header";
 import MapPirateBay from "./Components/MapPirateBay";
+import Filter from "./Components/Filter";
+import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-
-import "./App.css";
-
 
 function App() {
   const [select, setSelect] = useState("weather");
@@ -21,12 +14,12 @@ function App() {
   };
 
   const handleSubmit = event => {
-    alert(`you selected ${select}`);
     event.preventDefault();
   };
 
   return (
     <div>
+      <Header />
       <Filter
         handleChange={handleChange}
         handleSubmit={handleSubmit}
@@ -37,14 +30,8 @@ function App() {
         handleChange={handleChange}
         select={select}
       />
-      <Reset />
-      <Header
-        handleChange={handleChange}
-        handleSubmit={handleSubmit}
-        select={select}
-      />
-      <MapPirateBay select={select} />
       <Footer />
+      <Reset />
     </div>
   );
 }
