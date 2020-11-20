@@ -38,8 +38,7 @@ export default function MapPirateBay({ select }) {
 									iconMarker = `http://openweathermap.org/img/wn/${dataMarker.weather[0].icon}@2x.png`;
 									break;
 								case "boat":
-									iconMarker =
-										"https://cdn.icon-icons.com/icons2/951/PNG/512/boat_icon-icons.com_74182.png";
+									iconMarker = "./boat.png";
 									break;
 								case "tresor":
 									iconMarker =
@@ -81,7 +80,6 @@ export default function MapPirateBay({ select }) {
 									) : (
 										""
 									)}
-									)
 								</Marker>
 							);
 						})}
