@@ -33,7 +33,9 @@ export default function MapPirateBay() {
                   key={index}
                   position={[dataMarker.coord.lat, dataMarker.coord.lon]}
                   icon={L.icon({
-                    iconUrl: `http://openweathermap.org/img/wn/${dataMarker.weather[0].icon}@2x.png`,
+                    iconUrl: dataMarker.weather
+                      ? `http://openweathermap.org/img/wn/${dataMarker.weather[0].icon}@2x.png`
+                      : dataMarker.boat[0].icon,
                     //shadowUrl: iconShadow,
                     iconSize: [30, 42],
                     iconAnchor: [15, 42],
