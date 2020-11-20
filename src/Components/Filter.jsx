@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 200px;
+  margin-left: 250%;
 `;
 
 const Select = styled.select`
@@ -18,6 +19,7 @@ const Select = styled.select`
   cursor: pointer;
   line-height: 1.1;
   background-color: #fff;
+  color: red;
   background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
   option {
     background-color: black;

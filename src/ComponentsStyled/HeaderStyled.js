@@ -13,11 +13,11 @@ export const Container = styled.div`
 `;
 
 export const Main = styled.div`
-  width: 100vw;
+  width: 99vw;
   display: flex;
   background-color: black;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 `;
 
 export const BonesTitle = styled.h1`
