@@ -4,13 +4,69 @@
   "count": 50,
   "list": [
     {
+      "id": 3893859,
+      "name": "Tresor",
+      "coord": {
+        "lat": 17,
+        "lon": -100.2
+      },
+      "tresor": [
+        {
+          "id": 799,
+          "icon": "https://cdn.icon-icons.com/icons2/1320/PNG/512/-treasure_86876.png"
+        }
+      ]
+    },
+    {
+      "id": 3893859,
+      "name": "Tresor",
+      "coord": {
+        "lat": 17,
+        "lon": -75.2
+      },
+      "tresor": [
+        {
+          "id": 799,
+          "icon": "https://cdn.icon-icons.com/icons2/1320/PNG/512/-treasure_86876.png"
+        }
+      ]
+    },
+    {
+      "id": 323859,
+      "name": "Tresor",
+      "coord": {
+        "lat": 3,
+        "lon": -55.2
+      },
+      "tresor": [
+        {
+          "id": 799,
+          "icon": "https://cdn.icon-icons.com/icons2/1320/PNG/512/-treasure_86876.png"
+        }
+      ]
+    },
+    {
+      "id": 36223859,
+      "name": "Tresor",
+      "coord": {
+        "lat": 5,
+        "lon": -80.2
+      },
+      "tresor": [
+        {
+          "id": 799,
+          "icon": "https://cdn.icon-icons.com/icons2/1320/PNG/512/-treasure_86876.png"
+        }
+      ]
+    },
+    {
       "id": 3622389,
-      "nameboat": "Tresor",
+      "name": "Tresor",
       "coord": {
         "lat": 8.04,
         "lon": -80.35
       },
-      "boat": [
+      "tresor": [
         {
           "id": 799,
           "icon": "https://cdn.icon-icons.com/icons2/1320/PNG/512/-treasure_86876.png"
