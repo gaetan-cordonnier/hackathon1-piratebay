@@ -1,7 +1,10 @@
-import { useState } from "react";
 
+import { useState } from "react";
 import MapPirateBay from "./Components/MapPirateBay";
 import Filter from "./Components/Filter";
+import { Reset } from "styled-reset";
+import Header from "./Components/Header";
+
 
 function App() {
   const [select, setSelect] = useState("weather");
@@ -26,6 +29,8 @@ function App() {
         handleChange={handleChange}
         select={select}
       />
+      <Reset />
+      <Header />
     </div>
   );
 }
