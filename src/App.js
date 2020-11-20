@@ -1,10 +1,13 @@
 import { Reset } from "styled-reset";
 import { useState } from "react";
 import NotFound from "./Components/NotFound";
+
 import Header from "./Components/Header";
 import MapPirateBay from "./Components/MapPirateBay";
 import NotFound from "./Components/NotFound";
 import { Reset } from "styled-reset";
+
+import Footer from "./Components/Footer";
 
 import Footer from "./Components/Footer";
 
