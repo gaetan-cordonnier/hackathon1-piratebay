@@ -1,9 +1,9 @@
-import { useState } from "react";
 import { Reset } from "styled-reset";
+import { useState } from "react";
 
-import MapPirateBay from "./Components/MapPirateBay";
-import Filter from "./Components/Filter";
 import Header from "./Components/Header";
+import MapPirateBay from "./Components/MapPirateBay";
+
 import Footer from "./Components/Footer";
 
 function App() {
@@ -18,18 +18,14 @@ function App() {
   };
 
   return (
-    <div>
-      <Header />
-      <Filter
+    <div className="App">
+      <Reset />
+      <Header
         handleChange={handleChange}
         handleSubmit={handleSubmit}
         select={select}
       />
-      <MapPirateBay
-        handleSubmit={handleSubmit}
-        handleChange={handleChange}
-        select={select}
-      />
+      <MapPirateBay select={select} />
       <Footer />
       <Reset />
     </div>

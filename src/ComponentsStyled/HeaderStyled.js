@@ -6,7 +6,6 @@ export const Container = styled.div`
   justify-content: flex-start;
   align-items: center;
   height: 15vh;
-
   @media ${device.mobile} {
     height: 15vh;
   }
