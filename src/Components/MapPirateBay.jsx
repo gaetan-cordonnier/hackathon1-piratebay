@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { MapContainer, Marker, TileLayer } from "react-leaflet";
-import { MapStyled } from "../ComponentsStyled/MapStyled";
+import { MapStyled, MarkerStyled } from "../ComponentsStyled/MapStyled";
 import L from "leaflet";
 import weatherData from "../weatherData.json";
 
@@ -34,8 +34,8 @@ export default function MapPirateBay() {
                   position={[dataMarker.coord.lat, dataMarker.coord.lon]}
                   icon={L.icon({
                     iconUrl: `http://openweathermap.org/img/wn/${dataMarker.weather[0].icon}@2x.png`,
-                    //shadowUrl: iconShadow,
-                    iconSize: [30, 42],
+                    // shadowUrl: iconShadow,
+                    iconSize: [90, 90],
                     iconAnchor: [15, 42],
                     shadowAnchor: [12, 42],
                     popupAnchor: [0, -40],

@@ -4,6 +4,6 @@ export const MapStyled = styled.div`
   .leaflet-container {
     width: 100vw;
     height: 100vh;
-    filter: sepia(90%);
+    filter: sepia(60%);
   }
 `;
