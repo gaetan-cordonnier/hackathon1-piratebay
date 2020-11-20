@@ -1,17 +1,21 @@
 import React from "react";
+import styled from "styled-components";
+
+const Container = styled.div`
+  width: 200px;
+`;
 
 const Filter = ({ handleChange, handleSubmit, select }) => {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <label>
-          Choose :
+        <Container>
           <select value={select} onChange={handleChange}>
-            <option value="weather">Météo</option>
-            <option value="boat">Bateau</option>
-            <option value="tresor">Trésor</option>
+            <option value="Weather">Weather</option>
+            <option value="boat">Boats</option>
+            <option value="tresor">Treasures</option>
           </select>
-        </label>
+        </Container>
       </form>
     </>
   );

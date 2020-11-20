@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import MapPirateBay from "./Components/MapPirateBay";
 import Filter from "./Components/Filter";
+
 function App() {
   const [select, setSelect] = useState("weather");
 
@@ -20,7 +21,11 @@ function App() {
         handleSubmit={handleSubmit}
         select={select}
       />
-      <MapPirateBay select={select} />
+      <MapPirateBay
+        handleSubmit={handleSubmit}
+        handleChange={handleChange}
+        select={select}
+      />
     </div>
   );
 }

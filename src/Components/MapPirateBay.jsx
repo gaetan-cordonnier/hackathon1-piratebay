@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { MapContainer, Marker, TileLayer } from "react-leaflet";
 import { MapStyled } from "../ComponentsStyled/MapStyled";
 import L from "leaflet";
+
 import weatherData from "../weatherData.json";
 
 export default function MapPirateBay({ select }) {
