@@ -1,17 +1,23 @@
 import styled from "styled-components";
 
 export const VotesStyled = styled.div`
-	font-family: "Amatic SC", cursive;
-	font-size: 1.7em;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 15vw;
-	height: 50vh;
-	background-color: #e2da7a;
-	border-radius: 10px;
-
-	.p {
+	.body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 3px solid red;
+		background-color: #e2da7a;
+		border-radius: 10px;
+		width: max-content;
+		height: max-content;
+		@media screen and (max-width: 375px) and (max-height: 812px) {
+			width: 45vw;
+		}
+	}
+	.title {
+		text-align: center;
+		font-family: "Amatic SC", cursive;
+		font-size: 3em;
 	}
 
 	.voteTypes {
@@ -21,19 +27,18 @@ export const VotesStyled = styled.div`
 	}
 
 	.voteType {
+		font-family: "Amatic SC", cursive;
+		font-size: 2em;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		width: 13vw;
+		width: 25vh;
 		height: 5vh;
 		align-items: center;
 		padding: 5px 10px;
 		background-color: #eaeab6;
 		border-radius: 5px;
 		margin: 2px;
-	}
-
-	.voteCount {
 	}
 
 	.voteType button {

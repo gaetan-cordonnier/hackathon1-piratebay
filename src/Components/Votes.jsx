@@ -30,7 +30,7 @@ class Votes extends Component {
 	render() {
 		return (
 			<VotesStyled>
-				<h1>Harbor'n'b</h1>
+				<h1 className="title">Harbor'n'b</h1>
 				<div className="voteTypes">
 					{this.state.voteTypes.map((type, i) => (
 						<div key={i} className="voteType">
