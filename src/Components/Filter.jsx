@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 200px;
+
   margin-left: 250%;
 `;
 
@@ -35,14 +36,17 @@ const Filter = ({ handleChange, handleSubmit, select }) => {
     <>
       <form onSubmit={handleSubmit}>
         <Container>
+
           <Select value={select} onChange={handleChange}>
             <option value="weather">Weather</option>
             <option value="boat">Boats</option>
             <option value="tresor">Treasures</option>
           </Select>
+
         </Container>
       </form>
     </>
   );
 };
+
 export default Filter;
