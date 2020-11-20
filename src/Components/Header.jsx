@@ -4,13 +4,23 @@ import {
   BonesTitle,
   Container,
   Image,
+  Main,
 } from "../ComponentsStyled/HeaderStyled.js";
 
-export default function Header() {
+import Filter from "./Filter";
+
+export default function Header({ handleChange, handleSubmit, select }) {
   return (
-    <Container>
-      <Image src={Logo} />
-      <BonesTitle>Pirate Bay</BonesTitle>
-    </Container>
+    <Main>
+      <Container>
+        <Image src={Logo} />
+        <BonesTitle>Pirate Bay</BonesTitle>
+      </Container>
+      <Filter
+        handleChange={handleChange}
+        handleSubmit={handleSubmit}
+        select={select}
+      />
+    </Main>
   );
 }
