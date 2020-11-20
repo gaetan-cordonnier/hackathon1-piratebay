@@ -2328,6 +2328,48 @@
           "icon": "https://cdn.icon-icons.com/icons2/951/PNG/512/boat_icon-icons.com_74182.png"
         }
       ]
+    },
+    {
+      "id": 3622388,
+      "nameharbor": "Port Royal",
+      "coord": {
+        "lat": 17.94,
+        "lon": -76.84
+      },
+      "harbor": [
+        {
+          "id": 798,
+          "icon": "src/Components/images/harbor.png"
+        }
+      ]
+    },
+    {
+      "id": 3622387,
+      "nameharbor": "harbor",
+      "coord": {
+        "lat": 15.8,
+        "lon": -86.77
+      },
+      "harbor": [
+        {
+          "id": 797,
+          "icon": "src/Components/images/harbor.png"
+        }
+      ]
+    },
+    {
+      "id": 3622386,
+      "nameharbor": "New Providence",
+      "coord": {
+        "lat": 25.1,
+        "lon": -77.3
+      },
+      "harbor": [
+        {
+          "id": 796,
+          "icon": "src/Components/images/harbor.png"
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
-import { MapContainer, Marker, TileLayer } from "react-leaflet";
+import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet";
 import { MapStyled } from "../ComponentsStyled/MapStyled";
+import Votes from "./Votes";
+
 import L from "leaflet";
 
 import weatherData from "../weatherData.json";
@@ -30,36 +32,57 @@ export default function MapPirateBay({ select }) {
               return dataMarker.hasOwnProperty(select);
             })
             .map((dataMarker, index) => {
-              let toto = null;
+              let iconMarker = null;
               switch (select) {
                 case "weather":
-                  toto = `http://openweathermap.org/img/wn/${dataMarker.weather[0].icon}@2x.png`;
+                  iconMarker = `http://openweathermap.org/img/wn/${dataMarker.weather[0].icon}@2x.png`;
                   break;
                 case "boat":
-                  toto =
+                  iconMarker =
                     "https://cdn.icon-icons.com/icons2/951/PNG/512/boat_icon-icons.com_74182.png";
                   break;
                 case "tresor":
-                  toto =
+                  iconMarker =
                     "https://cdn.icon-icons.com/icons2/1320/PNG/512/-treasure_86876.png";
                   break;
+                case "harbor":
+                  iconMarker = "./harbor.png";
+                  break;
                 default:
-                  toto = "";
+                  iconMarker = "";
               }
+
               return (
                 <Marker
                   key={index}
                   position={[dataMarker.coord.lat, dataMarker.coord.lon]}
                   icon={L.icon({
-                    iconUrl: toto,
+                    iconUrl: iconMarker,
 
                     //shadowUrl: iconShadow,
-                    iconSize: [30, 42],
-                    iconAnchor: [15, 42],
+                    iconSize: [60, 60],
+                    iconAnchor: [30, 58],
                     shadowAnchor: [12, 42],
                     popupAnchor: [0, -40],
                   })}
-                />
+                >
+                  {!dataMarker.weather && !dataMarker.tresor ? (
+                    dataMarker.boat ? (
+                      <Popup>
+                        <h1>{dataMarker.nameboat} </h1>
+                        <p>Latitude : {dataMarker.coord.lat}</p>
+                        <p>Longetude : {dataMarker.coord.lon}</p>
+                      </Popup>
+                    ) : (
+                      <Popup>
+                        <Votes />
+                      </Popup>
+                    )
+                  ) : (
+                    ""
+                  )}
+                  )
+                </Marker>
               );
             })}
         </MapContainer>
