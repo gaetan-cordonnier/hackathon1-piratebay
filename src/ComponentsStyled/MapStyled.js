@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const MapStyled = styled.div`
 	.leaflet-container {
-		width: 99vw;
+		width: 100vw;
 		height: 82vh;
-		filter: sepia(60%);
+		filter: sepia(80%);
 	}
 `;

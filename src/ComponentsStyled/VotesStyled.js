@@ -36,7 +36,7 @@ export const VotesStyled = styled.div`
 		height: 5vh;
 		align-items: center;
 		padding: 5px 10px;
-		background-color: #eaeab6;
+		background-color: #bbbbbb;
 		border-radius: 5px;
 		margin: 2px;
 	}
@@ -45,7 +45,7 @@ export const VotesStyled = styled.div`
 		font-family: "Amatic SC", cursive;
 		font-size: 1em;
 		color: #000;
-		background-color: #c6c6c6;
+		background-color: grey;
 		border: none;
 		outline: none;
 		cursor: pointer;
