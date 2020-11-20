@@ -15,7 +15,6 @@ function App() {
   };
 
   const handleSubmit = event => {
-    alert(`you selected ${select}`);
     event.preventDefault();
   };
 
