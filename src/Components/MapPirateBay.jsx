@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
+
 import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet";
 import { MapStyled } from "../ComponentsStyled/MapStyled";
 import Votes from "./Votes";
+
 import L from "leaflet";
 
 import weatherData from "../weatherData.json";
@@ -78,4 +80,5 @@ export default function MapPirateBay({ select }) {
 			</div>
 		</div>
 	);
+
 }
