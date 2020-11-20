@@ -6,5 +6,4 @@ export const MapStyled = styled.div`
     height: 100vh;
     filter: sepia(60%);
   }
-
 `;
