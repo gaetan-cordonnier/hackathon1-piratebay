@@ -61,10 +61,8 @@ export default function MapPirateBay({ select }) {
 										position={[dataMarker.coord.lat, dataMarker.coord.lon]}
 										icon={L.icon({
 											iconUrl: markerIcon,
-
-											//shadowUrl: iconShadow,
-											iconSize: [30, 42],
-											iconAnchor: [15, 42],
+											iconSize: [60, 60],
+											iconAnchor: [30, 58],
 											shadowAnchor: [12, 42],
 											popupAnchor: [0, -40],
 										})}
