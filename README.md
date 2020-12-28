@@ -1,13 +1,26 @@
-# 19/11/2020 TEAM :
+# WILD CODE SCHOOL HACKATHON (11/19/2020) 
 
-Aléxix Catrix
 
-Amélie Macquet
+## THEME:
 
-François-Xavier Colliot
+"Back To The Futur" reflect on past issues that could have been solved with our current capabilities and technologies. 
 
-Gaëtan Cordonnier
+## DESCRIPTION:
 
-Sarah Sahraoui
+We have created a pirate themed app. This allows you to position enemy ships, treasures, bests saloons on map and view the weather.
 
-# DESCRIPTION :
+## TECHNOLOGY USED:
+
+React JS, React-Leaflet Map, JSON file, CSS by Styled-Component and HTML.
+
+##TEAM:
+
+Aléxix Catrix -> https://github.com/AlexisCatrix
+
+Amélie Macquet -> https://github.com/AmelMac/
+
+François-Xavier Colliot -> https://github.com/Fx-Colliot
+
+Gaëtan Cordonnier -> https://github.com/gaetan-cordonnier
+
+Sarah Sahraoui -> https://github.com/Sarahshr
