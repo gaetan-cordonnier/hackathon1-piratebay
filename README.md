@@ -15,12 +15,12 @@ React JS, React-Leaflet Map, JSON file, CSS by Styled-Component and HTML.
 
 ##TEAM:
 
-Aléxix Catrix -> https://github.com/AlexisCatrix
+- Aléxix Catrix -> https://github.com/AlexisCatrix
 
-Amélie Macquet -> https://github.com/AmelMac/
+- Amélie Macquet -> https://github.com/AmelMac/
 
-François-Xavier Colliot -> https://github.com/Fx-Colliot
+- François-Xavier Colliot -> https://github.com/Fx-Colliot
 
-Gaëtan Cordonnier -> https://github.com/gaetan-cordonnier
+- Gaëtan Cordonnier -> https://github.com/gaetan-cordonnier
 
-Sarah Sahraoui -> https://github.com/Sarahshr
+- Sarah Sahraoui -> https://github.com/Sarahshr
