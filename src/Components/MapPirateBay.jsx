@@ -6,17 +6,17 @@ import L from "leaflet";
 import weatherData from "../weatherData.json";
 
 export default function MapPirateBay({ select }) {
-	const [data, setData] = useState([]);
+  const [data, setData] = useState([]);
 
-	useEffect(() => {
-		getMock();
-		console.log(select);
-	}, []);
+  useEffect(() => {
+    getMock();
+    console.log(select);
+  }, []);
 
-	const getMock = () => {
-		setData(weatherData.list);
-	};
-
+  const getMock = () => {
+    setData(weatherData.list);
+  };
+  
 	return (
 		<div>
 			<MapStyled>
@@ -49,13 +49,12 @@ export default function MapPirateBay({ select }) {
 									iconMarker = "";
 							}
 
-							return (
-								<Marker
-									key={index}
-									position={[dataMarker.coord.lat, dataMarker.coord.lon]}
-									icon={L.icon({
-										iconUrl: iconMarker,
-
+              return (
+                <Marker
+                  key={index}
+                  position={[dataMarker.coord.lat, dataMarker.coord.lon]}
+                  icon={L.icon({
+                    iconUrl: iconMarker,
 										//shadowUrl: iconShadow,
 										iconSize: [60, 60],
 										iconAnchor: [30, 58],
