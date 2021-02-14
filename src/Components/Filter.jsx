@@ -2,15 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-	width: 200px;
-	margin-left: 250%;
+	width: 20vw;
+	height: 15vh;
+	margin-top: 10vh;
+	margin-left: 10vw;
 `;
 
 const Select = styled.select`
 	@import url("http://fonts.cdnfonts.com/css/cartoon-bones");
 	font-family: "Cartoon Bones", sans-serif;
-	width: 300px;
-	min-width: 15ch;
+	min-width: 10ch;
 	max-width: 30ch;
 	border: 1px solid red;
 	border-radius: 0.25em;
@@ -19,7 +20,8 @@ const Select = styled.select`
 	cursor: pointer;
 	line-height: 1.1;
 	background-color: #fff;
-	color: red;
+	color: #000000;
+	font-weight: bold;
 	background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
 	option {
 		background-color: black;
@@ -29,6 +31,7 @@ const Select = styled.select`
 		background-color: green;
 	}
 `;
+
 const Filter = ({ handleChange, handleSubmit, select }) => {
 	return (
 		<>
